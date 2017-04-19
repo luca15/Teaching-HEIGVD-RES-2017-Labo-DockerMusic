@@ -100,10 +100,10 @@ socketUDP.on("message",	function(msg,	source)	{
 
 socketTCP = net.createServer(function(socket) {
   socket.write(JSON.stringify(auditor.getArrayMusician()));
-  socket.pipe(socket);
+  socket.end();
 });
 
-socketTCP.listen(2205, "localhost");
+socketTCP.listen(2205);
 
 var rule = new schedule.RecurrenceRule();
 rule.second = new schedule.Range(0, 59, 6);
