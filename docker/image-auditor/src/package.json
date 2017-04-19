@@ -1,0 +1,11 @@
+{
+  "name": "musician",
+  "version": "0.1.0",
+  "description": "",
+  "main": "musician.js",
+  "author": "Luca Sivillica",
+  "dependencies": {
+    "node-schedule": "1.2.1",
+    "moment" : "2.18.1"
+  }
+}
