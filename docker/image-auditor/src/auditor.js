@@ -58,7 +58,7 @@ const ProtocolTCP = {
 };
 
 //------------------------------------------------------------------------------
-// Declaration of functions and classes
+// Declaration of classes
 
 /**
  * Class that represents a musician
